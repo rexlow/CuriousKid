@@ -27,6 +27,15 @@ bash download_importance.sh
 pip3 install -r requirements.txt
 ```
 
+### Install Spacy models
+
+Pick either `en_core_web_sm` or `en_core_web_trf` for name entity recognition task.
+
+```
+python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_trf
+```
+
 ## Usage
 
 ### Important word extraction
