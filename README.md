@@ -11,7 +11,7 @@ A POC repository to get some ideas our of my head. Some of the work that will be
 7. Maybe deep learning approach?
 
 
-## Instructions to run
+## To build
 
 Detail insturctions will be included when the work is done.
 
@@ -19,4 +19,18 @@ Detail insturctions will be included when the work is done.
 
 ```
 bash download_importance.sh
+```
+
+### Install dependencies
+
+```
+pip3 install -r requirements.txt
+```
+
+## Usage
+
+### Important word extraction
+
+```
+python3 importance.py
 ```
